@@ -204,6 +204,7 @@
           
           if (target.classList.contains('indicator')) {
             let n = +target.getAttribute('data-slide-to');
+            pauseBtn.classList.add('myHover');
             pause();
             goToSlide(n);
             soundClickLeftIndicator.play();
