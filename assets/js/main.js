@@ -229,10 +229,10 @@
   
         function swipeEnd(event) {
           swipeEndX = event.changedTouches[0].pageX;
-          if ((swipeStartX - swipeEndX) > 20 ) {
+          if ((swipeStartX - swipeEndX) > 50 ) {
             nextWave();
           };
-          (swipeStartX - swipeEndX < -20) && prevWave();
+          (swipeStartX - swipeEndX < -50) && prevWave();
         }
   
         
