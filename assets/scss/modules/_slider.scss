@@ -7,6 +7,13 @@
   border: 1px solid #22b0f6;
   border-radius: 15px;
 
+  @media (max-width: 576px) {
+    padding-bottom: 36px; 
+  }
+  @media (max-width: 360px) {
+    padding-bottom: 26px; 
+  }
+
   &__wrap-btn {
     width: 11vw;
     /* max-width: 490px; */
